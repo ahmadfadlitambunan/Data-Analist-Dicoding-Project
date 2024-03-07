@@ -105,7 +105,7 @@ def creat_ratio_by_user(df):
 
     return result_df
 
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("./dashboard/main_data.csv")
 
 st.header(
     "Bike Sharing Dashboard :bike:"
